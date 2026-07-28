@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.37.1",
-    "@cloudflare/workerd-windows-64": "^1.20260515.1",
     "@types/node": "22.19.19",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
@@ -31,13 +30,5 @@
     "vinext": "0.0.50",
     "vite": "8.0.13",
     "wrangler": "4.92.0"
-  },
-  "libc": [
-    "glibc",
-    "musl"
-  ],
-  "supportedArchitectures": {
-    "os": ["win32", "linux"],
-    "cpu": ["x64"]
   }
 }
