@@ -1,3 +1,4 @@
+"use client";
 import {useEffect,useState} from 'react';
 import {AnimatePresence,motion,useScroll,useSpring,useTransform} from 'motion/react';
 import {ArrowDown,ArrowRight,BookOpen,Box,Check,ChevronDown,ChevronRight,Clock3,Cpu,Download,Film,FolderOpen,Gauge,Globe2,Gpu,HardDrive,Languages,Menu,MessageCircle,Mic2,Monitor,Play,ScanText,Settings2,Sparkles,Subtitles,WandSparkles,Wifi,X,Zap} from 'lucide-react';
