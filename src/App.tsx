@@ -23,7 +23,7 @@ const features=[
 ] as const;
 const prices=[
  {name:'FREE',term:'1 ngày',price:'0đ',desc:'Trải nghiệm trọn bộ trước khi quyết định.',note:'Không cần thanh toán',tone:'sky',benefits:['24 giờ mở khóa toàn bộ','Thử workflow với video thật','Không cần thông tin thẻ']},
- {name:'LINH HOẠT',term:'3 ngày',price:'39.000đ',desc:'Phù hợp để hoàn thành một dự án ngắn.',note:'Chỉ 13.000đ / ngày',tone:'blue',benefits:['72 giờ dùng không giới hạn','Lý tưởng cho 1 dự án gấp','Hỗ trợ thiết lập nhanh']},
+ {name:'LINH HOẠT',term:'3 ngày',price:'29.000đ',desc:'Phù hợp để hoàn thành một dự án ngắn.',note:'Chỉ khoảng 9.700đ / ngày',tone:'blue',benefits:['72 giờ dùng không giới hạn','Lý tưởng cho 1 dự án gấp','Hỗ trợ thiết lập nhanh']},
  {name:'CREATOR',term:'1 tháng',price:'129.000đ',desc:'Cho nhà sáng tạo làm việc thường xuyên.',note:'Khoảng 4.300đ / ngày',tone:'violet',benefits:['30 ngày sáng tạo liên tục','Phù hợp lịch đăng hàng tuần','Cập nhật miễn phí trong kỳ']},
  {name:'STUDIO',term:'3 tháng',price:'349.000đ',desc:'Dành cho dự án dài và đội ngũ nhỏ.',note:'Khoảng 116.000đ / tháng',tone:'amber',benefits:['90 ngày cho chiến dịch dài','Chi phí chỉ khoảng 3.900đ/ngày','Hỗ trợ kỹ thuật ưu tiên']},
  {name:'PRO',term:'1 năm',price:'1.099.000đ',desc:'Lựa chọn tối ưu cho công việc dài hạn.',note:'Tiết kiệm 29%',tone:'indigo',featured:true,benefits:['365 ngày dùng toàn bộ tính năng','Giá tốt nhất cho người dùng lâu dài','Ưu tiên hỗ trợ và cập nhật']},
