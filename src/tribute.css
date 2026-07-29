@@ -3,5 +3,46 @@
 @media(max-width:700px){.tribute-overlay{padding:14px}.tribute{width:min(430px,100%);grid-template-columns:1fr;min-height:0;max-height:calc(100dvh - 28px);overflow:auto}.tribute-art{grid-row:1;min-height:210px}.tribute-art img{position:absolute;inset:0;object-position:center 48%}.tribute-art>div{background:linear-gradient(0deg,#260b07 0,transparent 45%)}.tribute-content{padding:31px 25px 27px}.tribute-date b{font-size:39px}.tribute-kicker{margin-top:23px}.tribute-content h2{font-size:31px}.tribute-content footer{align-items:flex-start;flex-direction:column}.tribute-close{top:10px;right:10px}}
 @media(prefers-reduced-motion:reduce){.tribute-overlay,.tribute{transition:none}}
 
+/* Warm daylight palette — higher contrast and easier Vietnamese reading */
+.tribute-overlay{background:rgba(28,22,18,.56)}
+.tribute{border-color:rgba(92,47,30,.18);background:#f6efe4;color:#3b2118;box-shadow:0 35px 100px rgba(38,20,13,.3)}
+.tribute-content{background:linear-gradient(145deg,#fffaf2,#f2e6d4)}
+.tribute-content:before{background:radial-gradient(circle at 15% 0,rgba(191,63,38,.11),transparent 42%)}
+.tribute-date{color:#a42c20}.tribute-date span{border-left-color:rgba(164,44,32,.28)}
+.tribute-kicker{color:#9b3024}
+.tribute-content h2{color:#381811}
+.tribute-content>p{color:#71493a}
+.tribute-content blockquote{border-color:rgba(112,61,40,.2);color:#5d3024}
+.tribute-content blockquote cite{color:#9a6b4b}
+.tribute-content footer{color:#3b2118}
+.tribute-content footer strong{color:#8f251b}.tribute-content footer small{color:#856c5d}
+.tribute-content footer button{border-color:#b56b4f;background:#8f251b;color:#fff8ed}.tribute-content footer button:hover{background:#6f1812;color:#fff}
+.tribute-close{border-color:rgba(255,255,255,.65);background:rgba(60,21,14,.58)}
+.tribute-art>div{background:linear-gradient(90deg,#f2e6d4 0,transparent 20%),linear-gradient(0deg,rgba(35,10,5,.22),transparent 50%)}
+.tribute-campaign{border-color:rgba(112,61,40,.22);background:rgba(255,255,255,.42)}
+.tribute-campaign summary{color:#8f251b}.tribute-campaign summary:hover{background:rgba(143,37,27,.06)}
+.tribute-campaign-body{border-top-color:rgba(112,61,40,.18);background:#fffaf3}
+.tribute-campaign-body>span,.tribute-address small{color:#9a6b4b}
+.tribute-campaign-body h3{color:#421c14}
+.tribute-campaign-body>p,.tribute-address p{color:#6f5145}
+.tribute-hotline{background:#982a20;color:#fff8ed}
+.tribute-address strong{color:#7f2018}
+.tribute{width:min(880px,100%)}
+.tribute-date b{font-size:54px}.tribute-date span{font-size:9px}
+.tribute-kicker{font-size:9px}
+.tribute-content h2{font-size:40px;line-height:1.08}
+.tribute-content>p{font-size:17px}
+.tribute-content blockquote{font-size:15px}.tribute-content blockquote cite{font-size:8px}
+.tribute-content footer strong{font-size:10px}.tribute-content footer small{font-size:8px}
+.tribute-content footer button{font-size:8px;padding:10px 14px}
+.tribute-campaign summary{font-size:9px;padding:12px 14px}
+.tribute-campaign-body>span,.tribute-hotline small,.tribute-address small{font-size:7px}
+.tribute-campaign-body h3{font-size:19px}
+.tribute-campaign-body>p{font-size:11px;line-height:1.7}
+.tribute-hotline a{font-size:18px}.tribute-hotline em{font-size:7px}.tribute-hotline .tribute-email{font-size:9px}
+.tribute-address p{font-size:9px}.tribute-address strong{font-size:12px}
+.tribute-close:disabled{cursor:not-allowed;background:rgba(60,21,14,.72);color:#f2d797}.tribute-close:disabled span{font:800 12px Inter;font-variant-numeric:tabular-nums}.tribute-content footer button:disabled{cursor:not-allowed;background:#d7c1a2;border-color:#d7c1a2;color:#725949;opacity:.9}
+@media(max-width:700px){.tribute-art>div{background:linear-gradient(0deg,#f2e6d4 0,transparent 46%)}}
+
 
 .tribute-campaign{margin-top:18px;border:1px solid rgba(226,201,165,.22);border-radius:10px;overflow:hidden}.tribute-campaign summary{list-style:none;padding:11px 13px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;color:#e5c98f;font:800 8px Inter;letter-spacing:.1em;text-transform:uppercase;transition:background 160ms ease}.tribute-campaign summary::-webkit-details-marker{display:none}.tribute-campaign summary:hover{background:rgba(255,255,255,.05)}.tribute-campaign summary svg{width:13px;transition:transform 180ms var(--ease-out)}.tribute-campaign[open] summary svg{transform:rotate(180deg)}.tribute-campaign-body{padding:18px 15px 16px;border-top:1px solid rgba(226,201,165,.18);background:rgba(0,0,0,.16)}.tribute-campaign-body>span{font:800 6px Inter;letter-spacing:.13em;color:#b99c6a}.tribute-campaign-body h3{margin:8px 0 11px;font:600 17px/1.3 "Noto Serif",Georgia,serif;color:#fff1d8}.tribute-campaign-body>p{font:400 9px/1.65 Inter;color:#d4bea0}.tribute-hotline{margin-top:14px;padding:13px;background:#9b251a;display:grid;grid-template-columns:1fr 1fr;gap:3px 10px}.tribute-hotline small{grid-column:1/-1;margin-bottom:6px;font:800 6px Inter;letter-spacing:.13em}.tribute-hotline a{font:600 16px "Noto Serif",Georgia,serif;color:#fff}.tribute-hotline em{font:600 6px Inter;font-style:normal;color:#e5baa1}.tribute-hotline .tribute-email{grid-column:1/-1;margin-top:7px;font:700 8px Inter;text-decoration:underline;text-underline-offset:3px}.tribute-address{padding-top:14px}.tribute-address small{font:800 6px Inter;letter-spacing:.13em;color:#b99c6a}.tribute-address p{margin:6px 0;font:500 8px/1.55 Inter;color:#d4bea0}.tribute-address strong{font:500 10px "Noto Serif",Georgia,serif;color:#fff0d5}
