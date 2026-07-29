@@ -40,7 +40,7 @@ const faqs=[
 ];
 const ease=[.22,1,.36,1] as const;
 const reveal={initial:{opacity:0,y:28},whileInView:{opacity:1,y:0},viewport:{once:true,amount:.18},transition:{duration:.7,ease}};
-const DOWNLOAD_URL="https://download.dubbintool.io.vn/DubbinTool-Setup-1.0.3.exe";
+const DOWNLOAD_URL="https://download.dubbintool.io.vn/updates/DubbinTool%20Setup%201.0.3.exe";
 
 function Logo({inverse=false}:{inverse?:boolean}){return <a className={`brand ${inverse?'inverse':''}`} href="#top"><img className="logo-mark" src="/assets/logo.png" alt="Logo DubbinTool"/><span><strong>DubbinTool</strong><small>AI DUBBING STUDIO</small></span></a>}
 function SectionTitle({eyebrow,title,text,center=false}:{eyebrow:string,title:string,text?:string,center?:boolean}){return <motion.div {...reveal} className={`section-title ${center?'center':''}`}><span className="eyebrow-text">{eyebrow}</span><h2>{title}</h2>{text&&<p>{text}</p>}</motion.div>}
