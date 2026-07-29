@@ -1,0 +1,421 @@
+/* Purpose-built phone layout — loaded last so mobile rules stay authoritative. */
+@media (max-width: 760px) {
+  html {
+    scroll-padding-top: 70px;
+  }
+
+  body {
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+
+  .shell {
+    width: min(100% - 32px, 560px);
+  }
+
+  .header {
+    height: 64px;
+    background: rgba(255, 255, 255, .94);
+    backdrop-filter: blur(14px) saturate(140%);
+  }
+
+  .logo-mark {
+    width: 38px;
+    height: 38px;
+    border-radius: 11px;
+  }
+
+  .brand strong {
+    font-size: 14px;
+  }
+
+  .menu {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 12px;
+    color: #17191e;
+  }
+
+  .nav nav {
+    top: 70px;
+    left: 16px;
+    right: 16px;
+    gap: 2px;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0 22px 55px rgba(15, 23, 42, .16);
+  }
+
+  .nav nav > a {
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    padding: 11px 13px;
+    border-radius: 10px;
+  }
+
+  .nav nav > a:not(.btn):active {
+    background: #f2f3f7;
+  }
+
+  .hero {
+    padding-top: 50px;
+  }
+
+  .hero-layout {
+    gap: 48px;
+  }
+
+  .hero-copy {
+    text-align: left;
+  }
+
+  .product-pill {
+    font-size: 10px;
+  }
+
+  h1 {
+    margin: 20px 0 18px;
+    font-size: clamp(42px, 12.5vw, 56px);
+    line-height: 1.01;
+    letter-spacing: -.055em;
+  }
+
+  .hero-copy > p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .actions {
+    gap: 10px;
+    margin-top: 25px;
+  }
+
+  .actions .btn,
+  .download-copy .btn {
+    width: 100%;
+    min-height: 50px;
+    font-size: 14px;
+  }
+
+  .proof {
+    justify-content: flex-start;
+    gap: 10px 14px;
+    margin-top: 19px;
+    font-size: 10px;
+  }
+
+  .hero-stage {
+    width: calc(100% + 8px);
+    margin-left: -4px;
+  }
+
+  .app-window,
+  .shot-window {
+    padding: 5px;
+    border-radius: 14px;
+    box-shadow: 0 18px 45px rgba(18, 24, 40, .14);
+  }
+
+  .float-chip {
+    display: none;
+  }
+
+  .stat-strip {
+    margin-top: 58px;
+  }
+
+  .stat-strip > div {
+    min-height: 92px;
+    padding: 20px 16px;
+  }
+
+  .stat-strip strong {
+    font-size: 19px;
+  }
+
+  .stat-strip span {
+    font-size: 10px;
+  }
+
+  .section {
+    padding: 68px 0;
+  }
+
+  .section-title,
+  .section-title.center {
+    max-width: none;
+    text-align: left;
+  }
+
+  .section-title h2 {
+    margin: 12px 0;
+    font-size: clamp(31px, 9vw, 40px);
+    line-height: 1.12;
+  }
+
+  .section-title p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .workflow-layout,
+  .showcase-grid,
+  .req-layout,
+  .faq-layout {
+    gap: 38px;
+  }
+
+  .workflow-card {
+    padding: 17px;
+    border-radius: 17px;
+  }
+
+  .feature-grid {
+    gap: 12px;
+  }
+
+  .feature {
+    padding: 21px 19px;
+    border-radius: 14px;
+  }
+
+  .feature h3 {
+    font-size: 16px;
+  }
+
+  .feature p {
+    font-size: 13px;
+  }
+
+  .showcase-head {
+    margin-bottom: 36px;
+  }
+
+  .showcase-head > p {
+    font-size: 13px;
+  }
+
+  .shot-copy h3 {
+    font-size: 23px;
+  }
+
+  .shot-copy p {
+    font-size: 13px;
+  }
+
+  .shot-tabs {
+    display: flex;
+    gap: 7px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+    scrollbar-width: none;
+  }
+
+  .shot-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .shot-tabs button {
+    flex: 0 0 auto;
+    min-height: 42px;
+    padding: 9px 12px;
+    border: 1px solid #28334a;
+    border-radius: 9px;
+  }
+
+  .price-grid {
+    gap: 14px;
+  }
+
+  .price {
+    min-height: 0;
+    padding: 20px;
+    border-radius: 17px;
+  }
+
+  .price-summary {
+    min-height: 0;
+  }
+
+  .price .btn {
+    min-height: 48px;
+  }
+
+  .popular {
+    top: 12px;
+    right: 12px;
+    left: auto;
+    transform: none;
+  }
+
+  .quarter-plan {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .specs {
+    padding: 5px 17px;
+    border-radius: 16px;
+  }
+
+  .spec {
+    gap: 7px;
+    padding: 15px 0;
+  }
+
+  .faq button {
+    min-height: 58px;
+    padding: 17px;
+    font-size: 14px;
+  }
+
+  .faq p {
+    margin: 0 17px;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .download-card {
+    min-height: auto;
+    padding: 39px 22px 260px;
+  }
+
+  .download-copy h2 {
+    font-size: 32px;
+  }
+
+  .download-copy p {
+    font-size: 13px;
+  }
+
+  .download-shot {
+    right: -15%;
+    bottom: 22px;
+    width: 112%;
+    opacity: .42;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .footer-grid > div:first-child {
+    grid-column: auto;
+  }
+
+  .footer-grid p,
+  .footer-grid > div > a:not(.brand) {
+    font-size: 12px;
+  }
+
+  .copyright {
+    margin-top: 38px;
+  }
+
+  /* Memorial modal: compact above the fold, full text remains scrollable. */
+  .tribute-overlay {
+    padding: 8px;
+    align-items: center;
+  }
+
+  .tribute {
+    width: min(100%, 440px);
+    max-height: calc(100dvh - 16px);
+    border-radius: 16px;
+  }
+
+  .tribute-art {
+    min-height: 142px;
+  }
+
+  .tribute-content {
+    padding: 25px 20px 22px;
+  }
+
+  .tribute-date b {
+    font-size: 38px;
+  }
+
+  .tribute-kicker {
+    margin-top: 20px;
+  }
+
+  .tribute-content h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 1.06;
+  }
+
+  .tribute-content > p {
+    font-size: 16px;
+  }
+
+  .tribute-content blockquote {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .tribute .tribute-campaign-body {
+    padding: 17px 15px;
+  }
+
+  .tribute .tribute-campaign-body h3 {
+    font-size: 22px;
+  }
+
+  .tribute .tribute-campaign-body > p {
+    font-size: 13px;
+  }
+
+  .tribute .tribute-hotline {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .tribute .tribute-hotline small,
+  .tribute .tribute-hotline .tribute-email {
+    grid-column: auto;
+  }
+
+  .tribute-content footer {
+    gap: 12px;
+  }
+
+  .tribute-content footer button {
+    min-height: 42px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 390px) {
+  .shell {
+    width: calc(100% - 24px);
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .stat-strip > div {
+    padding-inline: 12px;
+  }
+
+  .tribute-content {
+    padding-inline: 17px;
+  }
+
+  .tribute-content h2 {
+    font-size: 27px;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .feature:hover,
+  .btn:hover,
+  .float-chip:hover {
+    transform: none;
+  }
+}
