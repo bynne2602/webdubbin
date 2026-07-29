@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {BookOpen,Check,ChevronRight,Copy,Download,ExternalLink,FileAudio,FileText,Film,FolderOpen,Gauge,Languages,Lightbulb,Menu,Mic2,MonitorPlay,Palette,Play,Search,Settings2,ShieldCheck,Sparkles,Subtitles,X,Zap} from 'lucide-react';
 import './styles.css';
 import './api-guide.css';
+import './editorial-refresh.css';
 
 const sections=[
  ['activate','Kích hoạt ứng dụng'],['third-party-api','Gắn API bên thứ ba'],['upload','Tải video lên'],['extract','Trích xuất phụ đề'],['translate','Cấu hình dịch thuật'],['subtitle','Tinh chỉnh phụ đề'],['blur','Smart Blur'],['tts','Tạo giọng đọc AI'],['render','Render video'],['export','Xuất các tệp rời'],['projects','Quản lý dự án'],['tips','Mẹo chung']
