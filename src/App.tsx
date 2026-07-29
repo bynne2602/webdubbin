@@ -23,11 +23,11 @@ const features=[
 ] as const;
 const prices=[
  {name:'FREE',term:'1 ngày',price:'0đ',desc:'Trải nghiệm trọn bộ trước khi quyết định.',note:'Không cần thanh toán',tone:'sky',benefits:['24 giờ mở khóa toàn bộ','Thử workflow với video thật','Không cần thông tin thẻ']},
- {name:'LINH HOẠT',term:'3 ngày',price:'49.000đ',desc:'Phù hợp để hoàn thành một dự án ngắn.',note:'Chỉ 16.300đ / ngày',tone:'blue',benefits:['72 giờ dùng không giới hạn','Lý tưởng cho 1 dự án gấp','Hỗ trợ thiết lập nhanh']},
- {name:'CREATOR',term:'1 tháng',price:'199.000đ',desc:'Cho nhà sáng tạo làm việc thường xuyên.',note:'Khoảng 6.600đ / ngày',tone:'violet',benefits:['30 ngày sáng tạo liên tục','Phù hợp lịch đăng hàng tuần','Cập nhật miễn phí trong kỳ']},
- {name:'STUDIO',term:'3 tháng',price:'499.000đ',desc:'Dành cho dự án dài và đội ngũ nhỏ.',note:'Tiết kiệm 16%',tone:'amber',benefits:['90 ngày cho chiến dịch dài','Chi phí chỉ khoảng 5.500đ/ngày','Hỗ trợ kỹ thuật ưu tiên']},
- {name:'PRO',term:'1 năm',price:'1.499.000đ',desc:'Lựa chọn tối ưu cho công việc dài hạn.',note:'Tiết kiệm 37%',tone:'indigo',featured:true,benefits:['365 ngày dùng toàn bộ tính năng','Giá tốt nhất cho người dùng lâu dài','Ưu tiên hỗ trợ và cập nhật']},
- {name:'VĨNH VIỄN',term:'Trọn đời',price:'3.499.000đ',desc:'Mua một lần, sử dụng không giới hạn.',note:'Thanh toán một lần',tone:'emerald',benefits:['Sở hữu license không thời hạn','Không cần gia hạn hàng năm','Toàn bộ cập nhật tương lai']}
+ {name:'LINH HOẠT',term:'3 ngày',price:'39.000đ',desc:'Phù hợp để hoàn thành một dự án ngắn.',note:'Chỉ 13.000đ / ngày',tone:'blue',benefits:['72 giờ dùng không giới hạn','Lý tưởng cho 1 dự án gấp','Hỗ trợ thiết lập nhanh']},
+ {name:'CREATOR',term:'1 tháng',price:'129.000đ',desc:'Cho nhà sáng tạo làm việc thường xuyên.',note:'Khoảng 4.300đ / ngày',tone:'violet',benefits:['30 ngày sáng tạo liên tục','Phù hợp lịch đăng hàng tuần','Cập nhật miễn phí trong kỳ']},
+ {name:'STUDIO',term:'3 tháng',price:'399.000đ',desc:'Dành cho dự án dài và đội ngũ nhỏ.',note:'Khoảng 133.000đ / tháng',tone:'amber',benefits:['90 ngày cho chiến dịch dài','Chi phí chỉ khoảng 4.400đ/ngày','Hỗ trợ kỹ thuật ưu tiên']},
+ {name:'PRO',term:'1 năm',price:'1.099.000đ',desc:'Lựa chọn tối ưu cho công việc dài hạn.',note:'Tiết kiệm 29%',tone:'indigo',featured:true,benefits:['365 ngày dùng toàn bộ tính năng','Giá tốt nhất cho người dùng lâu dài','Ưu tiên hỗ trợ và cập nhật']},
+ {name:'VĨNH VIỄN',term:'Trọn đời',price:'2.499.000đ',desc:'Mua một lần, sử dụng không giới hạn.',note:'Thanh toán một lần',tone:'emerald',benefits:['Sở hữu license không thời hạn','Không cần gia hạn hàng năm','Toàn bộ cập nhật tương lai']}
 ];
 const faqs=[
  ['Có dùng DubbinTool offline được không?','Có. OCR, chỉnh sửa phụ đề và render đều có thể chạy cục bộ. Internet chỉ cần cho dịch vụ AI hoặc TTS online.'],
