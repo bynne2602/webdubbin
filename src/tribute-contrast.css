@@ -1,0 +1,99 @@
+/* High-contrast treatment for the expanded memorial campaign details. */
+.tribute {
+  width: min(940px, 100%);
+  grid-template-columns: 1.14fr .86fr;
+}
+
+.tribute .tribute-campaign {
+  background: #fff;
+  border: 1px solid #dfcdbb;
+  box-shadow: 0 8px 24px rgba(67, 35, 22, .08);
+}
+
+.tribute .tribute-campaign summary {
+  padding: 14px 15px;
+  background: #fff8ee;
+  color: #8f251b;
+  font-size: 10px;
+}
+
+.tribute .tribute-campaign[open] summary {
+  border-bottom: 1px solid #eadccd;
+}
+
+.tribute .tribute-campaign-body {
+  padding: 20px 17px 18px;
+  background: #fff !important;
+  color: #2d211c;
+}
+
+.tribute .tribute-campaign-body > span {
+  color: #9b3024 !important;
+  font-size: 8px;
+}
+
+.tribute .tribute-campaign-body h3 {
+  margin: 10px 0 13px;
+  color: #321912 !important;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+.tribute .tribute-campaign-body > p {
+  color: #493b34 !important;
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+.tribute .tribute-hotline {
+  padding: 15px;
+  background: #982a20;
+  color: #fff;
+}
+
+.tribute .tribute-hotline small {
+  color: #fff !important;
+  font-size: 8px;
+}
+
+.tribute .tribute-hotline a {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+.tribute .tribute-hotline em {
+  color: #f0c8b5 !important;
+  font-size: 8px;
+}
+
+.tribute .tribute-hotline .tribute-email {
+  color: #fff !important;
+  font-size: 10px;
+}
+
+.tribute .tribute-address {
+  padding: 16px 0 0;
+  background: #fff;
+}
+
+.tribute .tribute-address small {
+  color: #9b3024 !important;
+  font-size: 8px;
+}
+
+.tribute .tribute-address p {
+  color: #55443c !important;
+  font-size: 10px;
+}
+
+.tribute .tribute-address strong {
+  color: #742017 !important;
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  .tribute {
+    width: min(430px, 100%);
+    grid-template-columns: 1fr;
+  }
+}
