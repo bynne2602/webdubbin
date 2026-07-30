@@ -111,7 +111,7 @@
   height: 104px;
   border: 7px solid #fff;
   border-radius: 14px;
-  background: #fff url('/assets/zalo-group-qr.png') 50% 52% / 190% auto no-repeat;
+  background: #fff url('/assets/zalo-group-qr.png') 50% 50% / 150% auto no-repeat;
   box-shadow: 0 9px 22px rgba(33, 67, 156, .18);
 }
 
