@@ -96,8 +96,23 @@
 }
 
 .download-choice-card.zalo {
+  position: relative;
+  padding-right: 142px;
   border-color: #ccd7ff;
   background: linear-gradient(145deg, #f4f7ff, #e9efff);
+}
+
+.download-choice-card.zalo::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  width: 104px;
+  height: 104px;
+  border: 7px solid #fff;
+  border-radius: 14px;
+  background: #fff url('/assets/zalo-group-qr.png') 50% 52% / 190% auto no-repeat;
+  box-shadow: 0 9px 22px rgba(33, 67, 156, .18);
 }
 
 .download-choice-icon {
@@ -191,6 +206,20 @@
   .download-choice-card {
     min-height: 0;
     padding: 18px;
+  }
+
+  .download-choice-card.zalo {
+    min-height: 174px;
+    padding-right: 122px;
+  }
+
+  .download-choice-card.zalo::after {
+    top: 18px;
+    right: 18px;
+    width: 86px;
+    height: 86px;
+    border-width: 5px;
+    border-radius: 12px;
   }
 
   .download-choice-icon {
