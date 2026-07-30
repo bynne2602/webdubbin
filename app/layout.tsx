@@ -5,6 +5,7 @@ import "../src/editorial-refresh.css";
 import "../src/tribute.css";
 import "../src/tribute-contrast.css";
 import "../src/mobile-optimization.css";
+import "../src/community.css";
 
 export const metadata:Metadata={title:"DubbinTool — AI Dubbing Studio",description:"OCR, dịch, lồng tiếng và render video trong một studio.",icons:{icon:[{url:"/assets/favicon.ico"},{url:"/assets/favicon.png",type:"image/png"}],apple:"/assets/icon.png"}};
 export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="vi"><body>{children}</body></html>}
