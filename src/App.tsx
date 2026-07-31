@@ -40,7 +40,7 @@ const faqs=[
 ];
 const ease=[.22,1,.36,1] as const;
 const reveal={initial:{opacity:0,y:28},whileInView:{opacity:1,y:0},viewport:{once:true,amount:.18},transition:{duration:.7,ease}};
-const DOWNLOAD_URL="https://download.dubbintool.io.vn/installers/DubbinTool%20Full%20Setup%201.0.8.exe";
+const DOWNLOAD_URL="https://download.dubbintool.io.vn/updates/DubbinTool%20Setup%201.0.26.exe";
 const ZALO_URL="https://zalo.me/0373491922";
 const ZALO_GROUP_URL="https://zalo.me/g/mjtdnc945";
 
