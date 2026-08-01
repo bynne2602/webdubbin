@@ -1,0 +1,19 @@
+{
+  "name": "DubbinTool — AI Dubbing Studio",
+  "short_name": "DubbinTool",
+  "description": "AI Script Shorts, trích xuất phụ đề, dịch, lồng tiếng và render video trên Windows.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#654cf0",
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

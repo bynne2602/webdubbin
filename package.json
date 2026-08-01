@@ -9,7 +9,9 @@
   "scripts": {
     "dev": "vinext dev",
     "build": "vinext build",
-    "start": "vinext start"
+    "start": "vinext start",
+    "build:docs": "npm --prefix docs-site run build",
+    "build:all": "npm run build && npm run build:docs"
   },
   "dependencies": {
     "lucide-react": "^0.546.0",
