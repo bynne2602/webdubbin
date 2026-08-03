@@ -8,7 +8,7 @@ import './editorial-refresh.css';
 const sections=[
  ['activate','Kích hoạt ứng dụng'],['third-party-api','Gắn API bên thứ ba'],['upload','Tải video lên'],['extract','Trích xuất phụ đề'],['translate','Cấu hình dịch thuật'],['subtitle','Tinh chỉnh phụ đề'],['blur','Smart Blur'],['tts','Tạo giọng đọc AI'],['render','Render video'],['export','Xuất các tệp rời'],['projects','Quản lý dự án'],['tips','Mẹo chung']
 ];
-const downloadUrl='https://download.dubbintool.io.vn/installers/DubbinTool%20Full%20Setup%201.1.0.exe';
+const downloadUrl='https://download.dubbintool.io.vn/updates/DubbinTool%20Full%20Setup%201.1.8.exe';
 
 function App(){
  const [open,setOpen]=useState(false),[query,setQuery]=useState(''),[active,setActive]=useState('activate'),[copied,setCopied]=useState('');
